@@ -1,77 +1,131 @@
 <!DOCTYPE html>
-<!-- This html file gives information on the Team Members-->
+<!-- This file gives information on the Team Members-->
 <html>
 
 <head>
     <title>AREA 51</title>
     <meta charset="UTF-8">
-    <style>
-        body {background-color:white;}
-        p {color: black}
-        h1 {color: orange; font: size 60px;}
-        h2 {color: darkblue; font: size 40px;}
-        h3 {color: darkblue; font: size 35px;}
-        
-        body {
-        margin: 0;
-        font-family: Arial, Helvetica, sans-serif;
-        }
-
-        .topnav {
-            overflow: hidden;
-            background-color: #333;
-        }
-
-        .topnav a {
-            float: left;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-
-        .topnav a:hover {
-            background-color: #ddd;
-            color: black
-        }
-
-        .topnav a.active {
-            background-color: darkorange;
-        }
-    
-    </style>
-</head>
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <header>
-    <h1 style="text-align: center;"><b>AREA 51: THE NUMBER ONE CHOICE FOR YOUR SECURITY</b></h1>
-    
-    <nav>
-        <!-- This section contains all of the navigation links-->
-        <div class="topnav">
-            <a href="demo.htm">Home</a>
-            <a href="About.htm">About</a>
-            <a class="active" href="Members.htm">Members</a>
-        </div>
-     
-    </nav>
+    <h1 style="text-align: center;" class="heading"><b>AREA 51: THE NUMBER ONE CHOICE FOR YOUR SECURITY</b></h1>
+        <nav>
+            <!-- This section contains all of the navigation links-->
+            <div class="topnav">
+              <a href="demo.htm">Home</a>
+              <a class="active" href="Members.htm">Members</a>
+              <a href="Tools.htm">Tools</a>
+              <a href="Project Description.htm">Aims</a>
+              <a href="Plans and Progress.htm">Plans</a>
+              <a href="Scope and Limit.htm">Scope</a>
+              <a href="Tools.html">Tools</a>
+              <a href="Testing.htm">Testing</a>
+              <a href="Risks.htm">Risks</a>
+              <a href="Communication.htm">Communication</a>
+              <a href="Skills and Jobs.htm">Skills & Jobs</a>
+              <a href="Outcomes.htm">Outcomes</a>
+
+            </div>
+        </nav>
     </header>
 
     <main>
         <section>
         <!-- This section gives the information on the team members' profile-->
-            <h2><b>Founding members</b></h2>
-                <h3><b>1. Nguyen Ngoc Hai</b></h3>
-                    <p>
-                        <i>“Hello! My name is Nguyen Ngoc Hai, I am 18 years old and currently I am a student at RMIT University in Hanoi, Vietnam. Personally, since I was just a little child, I have always been amazed by the way how a specific piece of technology works, such as an iPhone or an iPod. Gradually, my curiosity led to the passion in science in general. Hence, I always question myself that what was more reasonable than choosing my career path as Information Technology. From the first day I began my study in RMIT, I always satisfy with my decision since I can have a chance to learn what I love and what I want. I can finally apply the knowledge about Python and Command Prompt in specific tasks. In terms of my future career, I always find questions about that topic difficult to have an answer, since my passion might not meet the requirements of my future life and necessities. Nevertheless, if money did not matter, I would really love to work in Cyber Security department, because it is my belief that the more advanced that the technology gets, the more dangers users might face up with. Moreover, I normally enjoys reading newspaper so that I can always be aware of the problems relating to cyber security in this day and age and what people have done to prevent it.”</i>
-                    </p>
+            <h2 style="text-align: center; font-size: 50px; color: black"><b>Founding members</b></h2>
+            <div class="row">
+                <div class="column">
+                  <div class="card">
+                    <img src="nnh1.jpg" alt="Hai" style="width:100%">
+                    <div class="container">
+                      <h2>Nguyen Ngoc Hai</h2>
+                      <p class="title">Founder</p>
+                      <p>Student at RMIT University Hanoi.</p>
+                      <p>s3978281@rmit.edu.vn<p>
+                      <p><button class="button">Contact</button></p>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="column">
+                  <div class="card">
+                    <img src="phuong.jpg" alt="Phuong" style="width:100%">
+                    <div class="container">
+                      <h2>Le Phuong</h2>
+                      <p class="title">Founder</p>
+                      <p>Student at RMIT University Hanoi.</p>
+                      <p>s3975121@rmit.edu.vn </p>
+                      <p><button class="button">Contact</button></p>
+                    </div>
+                  </div>
+                </div>
+              
+                <div class="column">
+                  <div class="card">
+                    <img src="Tung1.jpg" alt="Tung" style="width:100%">
+                    <div class="container">
+                      <h2>Nguyen Thanh Tung</h2>
+                      <p class="title">Founder</p>
+                      <p>Student at RMIT University Hanoi.</p>
+                      <p>s3979425@rmit.edu.vn</p>
+                      <p><button class="button">Contact</button></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                      <img src="engi.jpg" alt="Engi" style="width:100%">
+                      <div class="container">
+                        <h2>Dao The Anh</h2>
+                        <p class="title">Founder</p>
+                        <p>Studnet at RMIT University Hanoi.</p>
+                        <p>s3978728@rmit.edu.vn</p>
+                        <p><button class="button">Contact</button></p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
         </section>
     </main>
+</body>
 
-    <footer>
-    
-    </footer>
+<footer>
+    <div class="footer">
+        <div class="inner_footer">
+
+            <div class="footer_third">
+                <h4>Need help?</h4>
+                <a href="#">Terms &amp; Conditions</a>
+                <a href="#">Privacy Policy</a> 
+            </div>
+
+            <div class="footer_third">
+                <h4>More</h4>
+                <a href="#">Donate</a>
+                <a href="#">Future Plan</a>
+            </div>
+
+            <div class="footer_third">
+                <h4>Contact Us</h4>
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">Twitter</a>
+                <a href="#">Hotline: +84 37 412 9360</a>
+            
+                <span>
+                    AREA 51<br>
+                    Tel: +84 374129360
+                    Handi Resco Building<br>
+                    521 Kim Ma Street<br>
+                    Ngoc Khanh<br>
+                    Ba Dinh<br>
+                    Hanoi
+                </span>
+            </div>
+        </div>
+    </div>
+</footer>
 </html>
