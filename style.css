@@ -4,7 +4,7 @@ body {
   margin: 0;
   font-family: 'Times New Roman', 'Cambria', 'Garamond';
 }
-        p {color: black; font-size: 20px;}
+        p {color: black; font-size: 25px;}
         h1 {color: orange; font-size: 35px; font: 'Cambria'; padding-left: 1.5cm; padding-right: 1.5cm;}
         h2 {color: darkblue; font-size: 25px;}
         h3 {color: darkblue; font-size: 35px; margin: 3cm; margin-bottom: 0; margin-top: 1cm;}
@@ -21,6 +21,7 @@ body {
         margin-bottom: 0;
         margin-top: 0;
     }
+    
 /*Designing the navigation pane.*/
     .topnav {
         overflow: hidden;
@@ -131,6 +132,7 @@ body {
 
   
 /*Designing the Members page*/
+
   /* Three columns side by side */
 .column {
     float: left;
