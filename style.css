@@ -9,43 +9,138 @@ body {
         h2 {color: darkblue; font-size: 25px;}
         h3 {color: darkblue; font-size: 35px; margin: 3cm; margin-bottom: 0; margin-top: 1cm;}
 
-    .heading {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        text-align: middle;
-        width: 100vw;
-        display: block;
-        overflow: hidden;
-        padding: 30px 0;
-        box-sizing: border-box;
-        background-color: black;
-        margin-bottom: 0;
-        margin-top: 0;
-    }
+.heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: middle;
+    width: 100vw;
+    display: block;
+    overflow: hidden;
+    padding: 30px 0;
+    box-sizing: border-box;
+    background-color: black;
+    margin-bottom: 0;
+    margin-top: 0;
+}
     
 /*Designing the navigation pane.*/
-    .topnav {
-        overflow: hidden;
-        background-color: black;
-    }
+.topnav {
+    overflow: hidden;
+    background-color: black;
+}
 
-    .topnav a {
-        font-family: Arial, Helvetica, sans-serif;
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 20px;
-    }
+.topnav a {
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
 
-    .topnav a:hover {
-        background-color: #ddd;
-        color: black
-    }
+.topnav a:hover {
+    background-color: #ddd;
+    color: black
+}
 
-    .topnav a.active {
-        background-color: darkorange;
-    }
+.topnav a.active {
+    background-color: darkorange;
+}
+  
+
+/*Designing a text animation at the top of page(s).*/
+.text_animation {
+  position:absolute;
+  margin-top: 1%;
+  margin-left: 35%;
+  margin-bottom: 20px;
+  font: normal 40px/50px 'Calibri';
+  color: white;
+}
+
+.text_animation p{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 50px;
+  font-weight: 700;
+  float: left;
+  margin-right: 0.3em;
+}
+
+.text_animation b{
+  float: left;
+  overflow: hidden;
+  position: absolute;
+  height: 50px;
+  top: 47px;
+}
+
+.text_animation .inner{
+  font-size: 50px;
+  display: inline-block;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  list-style: none;
+
+  /*Animation*/
+-webkit-animation:move ;
+-moz-animation:move 5s;
+ -ms-animation:move 5s;
+  -o-animation:move 5s;
+     animation:move 5s;
+
+/*animation-iteration-count*/
+-webkit-animation-iteration-count:infinite;
+-moz-animation-iteration-count:infinite;
+ -ms-animation-iteration-count:infinite;
+  -o-animation-iteration-count:infinite;
+     animation-iteration-count:infinite;
+/*animation-delay*/
+-webkit-animation-delay:1s;
+-moz-animation-delay:1s;
+ -ms-animation-delay:1s;
+  -o-animation-delay:1s;
+     animation-delay:1s;                                               
+}
+
+@keyframes move{
+0%  { top: 0px; }
+20% { top: -50px; }
+40% { top: -100px; }
+60% { top: -150px; }
+
+}
+
+@-webkit-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+
+}
+@-moz-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+
+}
+@-o-keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+
+}
+@keyframes move {
+    0%  { top: 0px; }
+    20% { top: -50px; }
+    40% { top: -100px; }
+    60% { top: -150px; }
+
+}
+
 
 /*Desiging the footer.*/
     .footer{
